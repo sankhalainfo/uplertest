@@ -1,0 +1,74 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+	max-width:1280px;
+	margin:auto;
+}
+.heading{
+	text-align:center;
+	font-size:24px;
+}
+form{
+	width: 50%;
+    margin: auto;
+}
+label{
+	
+    margin-right: 10px;
+}
+.field{
+	margin-bottom:10px;	
+}
+.input-text input{
+	height: 30px;
+    width: 50%;
+    border: solid 1px #DDD;
+}
+.action{
+	margin-top:30px;	
+}
+.message{
+	width:50%;
+	margin:auto auto 20px auto;
+	
+}
+.message .success{
+	color: #000;
+    background-color: #c9e9c5;
+    border: solid 1px #539153;
+	padding:5px 20px;
+}
+.message .error{
+	color: #bf2323;
+	padding:5px 20px;
+    background-color: #eddddd;
+    border: solid 1px #bf2323;
+    font-size: 14px;
+}
+.action button.post{
+	background-color: #000;
+    color: #FFF;
+    padding: 7px 30px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 7px;
+    letter-spacing: 0.1rem;
+	cursor:pointer;
+}
+.action button.cancel{
+	background-color:#DDD;
+	color:#000;
+	padding: 7px 30px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 7px;
+    letter-spacing: 0.1rem;
+	cursor:pointer;
+}

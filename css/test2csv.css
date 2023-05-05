@@ -1,0 +1,41 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+	max-width:1280px;
+	margin:auto;
+}
+.heading{
+	text-align:center;
+	font-size:24px;
+}
+form{
+	width: 50%;
+    margin: auto;
+}
+label{	
+    margin-bottom: 10px;
+	font-weight:bold;
+	display:inline-block;
+}
+.field{
+	margin-bottom:10px;	
+}
+.input-text input{
+	height: 30px;
+    width: 50%;
+    border: solid 1px #DDD;
+}
+.action button.post{
+	background-color: #000;
+    color: #FFF;
+    padding: 7px 30px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 7px;
+    letter-spacing: 0.1rem;
+	cursor:pointer;
+}
